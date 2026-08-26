@@ -5,7 +5,7 @@
     catch { return 'en'; }
   };
   const zh = {
-    'Skip to content':'跳至主要内容','Services':'服务','Fleet':'车队','Why URide':'选择 URide 的理由','Fares':'价格','FAQ':'常见问题','WhatsApp us':'WhatsApp 咨询','Explore':'浏览','Back to top ↑':'返回顶部 ↑','Airport':'机场接送','Interstate':'跨州接送','Charter':'私人包车',
+    'Skip to content':'跳至主要内容','Services':'服务','Fleet':'车队','Why URide':'选择 URide 的理由','Fares':'价格','FAQ':'常见问题','WhatsApp us':'WhatsApp 咨询','Explore':'浏览','Back to top ↑':'返回顶部 ↑','Airport':'机场接送','Interstate':'跨州接送','Charter':'私人包车','CUSTOMER EXPERIENCES':'客户体验','Real journeys. Real feedback.':'真实旅程，真实评价。','on Google':'Google 评价','25 Reviews':'25 条评价','Google Review':'Google 评价','View all Google Reviews →':'查看所有 Google 评价 →',
     "Ipoh's private transfer specialist":'怡保私人接送服务专家','From your door to':'从家门出发，安心抵达','departure.':'机场。','Premium private rides between Ipoh and KLIA, plus charter journeys across Malaysia—planned around your time, comfort and peace of mind.':'提供怡保往返 KLIA 的尊贵私人接送，以及全马包车服务。行程配合您的时间，以舒适、安心为先。','Get a trip quote':'索取行程报价','Explore our fleet':'查看车队','Private, door-to-door':'私人点对点接送','Professional local drivers':'专业本地司机','YOUR MOST-BOOKED ROUTE':'热门路线','Available':'可预约','Doorstep pickup':'上门接送','Terminal drop-off':'机场航站楼下车','Private':'私人','ride':'行程','Direct':'直达','journey':'接送','booking':'预约','Door-to-door':'点对点接送','Travel made simple':'让旅程更轻松','Planned pickups':'预约接送','Comfortable fleet':'舒适车队','Interstate coverage':'跨州服务','Direct support':'直接沟通',
     'What we do':'我们的服务','A ride for every journey.':'每一段旅程，都有合适安排。','From airport departures to private days out, every trip is arranged with the same care and attention.':'从机场接送到私人一日游，每趟行程都用心安排。','KLIA / KLIA2 transfers':'KLIA / KLIA2 机场接送','Airport Transfer':'机场接送','Private airport transfer with doorstep pickup and direct terminal drop-off.':'私人机场接送，上门接载并直达航站楼。','View Airport Fares':'查看机场接送价格','Private Charter':'私人包车','A dedicated vehicle and driver for business, family, or special occasions.':'为商务、家庭或特别场合安排专属车辆与司机。','Explore Charter':'了解包车服务','Interstate Transfer':'跨州接送','Comfortable point-to-point private transfers from Ipoh across Malaysia.':'从怡保出发，舒适直达全马各地。','View Destinations':'查看路线','Day Tours':'一日游包车','Flexible private outings shaped around the places you want to experience.':'按照您想探索的地点，灵活安排私人一日游。','Explore Tours':'查看一日游','Meet & Greet':'机场接机礼宾服务','A reassuring welcome and a smooth handover from arrival to vehicle.':'抵达后由专人接待，顺畅引导至车辆。','View Service':'查看服务',
     'Airport transfer, refined':'尊贵机场接送','Start calm. Arrive ready.':'从容出发，安心抵达。','Early flight, late arrival, or family holiday—we make the long airport journey feel straightforward.':'无论早班机、深夜抵达或家庭出游，我们都让机场长途接送更轻松。','Private service from Ipoh to KLIA':'怡保至 KLIA 私人接送','Pickup from your home, hotel, or office':'可从住家、酒店或办公室接载','Direct support before your journey':'行程前直接沟通','Comfortable vehicle choices':'多款舒适车辆选择','Request an airport quote':'索取机场接送报价','Our fleet':'我们的车队','Space that suits you.':'为您的旅程选择合适空间。','Choose a comfortable vehicle for solo travel, family trips, or larger groups with luggage.':'无论个人、家庭或多人携带行李出行，都可选择合适舒适的车辆。','Silver':'银色','White':'白色','Black':'黑色','Premium comfort':'尊贵舒适','Enquire on WhatsApp →':'WhatsApp 咨询 →','Luggage capacity may vary depending on passenger count, luggage size and arrangement. Please contact us if you are travelling with multiple large suitcases.':'行李容量会因乘客人数、行李尺寸及摆放方式而异。如携带多个大型行李箱，请先联系我们。',
@@ -95,7 +95,12 @@
     'Service overview':'服务概览',
     'Featured Services':'精选服务',
     'Premium private transport for airport transfers, interstate travel and day trips.':'高品质私人接送服务，适用于机场接送、跨州接送及一日游。',
-    'URide Service featured services poster for airport transfers, interstate travel and day trips.':'URide Service 机场接送、跨州接送及一日游精选服务海报。'
+    'URide Service featured services poster for airport transfers, interstate travel and day trips.':'URide Service 机场接送、跨州接送及一日游精选服务海报。',
+    'KLIA · KLIA2 TRANSFERS':'KLIA · KLIA2 机场接送',
+    'Comfortable point-to-point private transfers across Malaysia.':'舒适直达全马各地的私人点对点接送。',
+    'AIRPORT ARRIVAL · WELCOME SERVICE':'机场抵达 · 迎宾服务',
+    'A smoother airport arrival with personalised welcome assistance.':'个性化迎宾协助，让机场抵达更顺畅。',
+    'Learn More':'了解更多'
   });
 
   const titleZh = {

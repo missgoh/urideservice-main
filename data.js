@@ -93,6 +93,30 @@ window.URIDE_DATA = Object.freeze({
         Object.freeze({ icon: "", name: "Petronas Twin Towers 双峰塔", nameZh: "Petronas Twin Towers 双峰塔" }),
         Object.freeze({ icon: "", name: "KLCC", nameZh: "KLCC" })
       ])
+    }),
+    Object.freeze({
+      id: "ipoh-malacca-one-day-trip",
+      name: "Ipoh ⇄ Malacca",
+      nameZh: "Ipoh ⇄ Malacca",
+      duration: "One Day Trip",
+      durationZh: "一日游",
+      description: "Discover Malacca’s historic landmarks, colourful heritage streets and riverside atmosphere on a flexible private journey from Ipoh.",
+      descriptionZh: "从 Ipoh 出发，以舒适的私人包车方式探索 Malacca 的历史建筑、文化老街及河岸景色。",
+      note: "The itinerary is flexible. The number of attractions visited may vary depending on traffic conditions, attraction operating hours, visiting time and the customer’s preferred pace.",
+      noteZh: "行程可灵活调整。实际游览景点数量将视交通状况、景点开放时间、停留时间及旅客步调而定。",
+      whatsappMessage: "Hi URide Service, I would like to enquire about the Ipoh to Malacca One Day Trip.",
+      whatsappMessageZh: "你好 URide Service，我想询问 Ipoh ⇄ Malacca 一日游包车。",
+      image: "public/images/review-ipoh-day-tour-placeholder.webp",
+      highlights: Object.freeze([
+        Object.freeze({ icon: "", name: "A’ Famosa / Porta de Santiago", nameZh: "A’ Famosa / Porta de Santiago" }),
+        Object.freeze({ icon: "", name: "St. Paul’s Church", nameZh: "St. Paul’s Church" }),
+        Object.freeze({ icon: "", name: "Dutch Square", nameZh: "Dutch Square" }),
+        Object.freeze({ icon: "", name: "The Stadthuys 荷兰红屋", nameZh: "The Stadthuys 荷兰红屋" }),
+        Object.freeze({ icon: "", name: "Christ Church", nameZh: "Christ Church" }),
+        Object.freeze({ icon: "", name: "Jonker Walk", nameZh: "Jonker Walk" }),
+        Object.freeze({ icon: "", name: "Melaka River Cruise", nameZh: "Melaka River Cruise" }),
+        Object.freeze({ icon: "", name: "Melaka Straits Mosque 海峡清真寺", nameZh: "Melaka Straits Mosque 海峡清真寺" })
+      ])
     })
   ]),
   addOns: Object.freeze([
