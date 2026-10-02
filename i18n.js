@@ -74,7 +74,7 @@
     'Travel comfortably from your doorstep.':'从家门舒适出发。',
     'Curated private journeys':'精选私人旅程',
     'Travel beyond the transfer.':'不只是接送，更是旅程体验。','PRIVATE AIRPORT TRANSFER':'私人机场接送','Departures · KLIA T1 / T2':'出发层 · KLIA T1 / T2','Airport ready':'机场出行','Chauffeur comfort':'尊贵司机服务','Group travel':'多人出行',
-    'Discover Ipoh, Penang or Kuala Lumpur in the comfort of a private journey shaped around your pace.':'以舒适的私人包车方式探索 Ipoh、Penang 或 Kuala Lumpur，行程可按您的步调灵活安排。',
+    'Discover Ipoh and beyond on a private journey shaped around your pace — from heritage cities to scenic highlands.':'从怡保出发，以舒适灵活的私人包车探索古城、高原与更多精彩目的地。',
     'Discover Ipoh or continue to Penang in the comfort of a private journey shaped around your pace.':'舒适探索 Ipoh，或继续前往 Penang，按您的步调享受私人旅程。',
     'Travel slowly.':'从容旅行。',
     'See more.':'看见更多。',
