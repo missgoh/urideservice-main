@@ -58,7 +58,7 @@ window.URIDE_DATA = Object.freeze({
       noteZh: "行程亮点可根据旅客喜好、步调及实际情况灵活调整。",
       whatsappMessage: "Hi URide Service, I would like to enquire about the Ipoh to Penang 2 Days 1 Night trip.",
       whatsappMessageZh: "你好 URide Service，我想询问 Ipoh ⇄ Penang 2天1夜包车行程。",
-      image: "public/images/review-ipoh-penang-placeholder.webp",
+      image: "public/images/day-tour-penang.webp",
       highlights: Object.freeze([
         Object.freeze({ icon: "", name: "Kek Lok Si Temple 极乐寺", nameZh: "Kek Lok Si Temple 极乐寺" }),
         Object.freeze({ icon: "", name: "Penang Hill 升旗山", nameZh: "Penang Hill 升旗山" }),
@@ -106,7 +106,7 @@ window.URIDE_DATA = Object.freeze({
       noteZh: "行程可灵活调整。实际游览景点数量将视交通状况、景点开放时间、停留时间及旅客步调而定。",
       whatsappMessage: "Hi URide Service, I would like to enquire about the Ipoh to Malacca One Day Trip.",
       whatsappMessageZh: "你好 URide Service，我想询问 Ipoh ⇄ Malacca 一日游包车。",
-      image: "public/images/review-ipoh-day-tour-placeholder.webp",
+      image: "public/images/day-tour-malacca.webp",
       highlights: Object.freeze([
         Object.freeze({ icon: "", name: "A’ Famosa / Porta de Santiago", nameZh: "A’ Famosa / Porta de Santiago" }),
         Object.freeze({ icon: "", name: "St. Paul’s Church", nameZh: "St. Paul’s Church" }),
