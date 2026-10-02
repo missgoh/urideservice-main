@@ -117,6 +117,27 @@ window.URIDE_DATA = Object.freeze({
         Object.freeze({ icon: "", name: "Melaka River Cruise", nameZh: "Melaka River Cruise" }),
         Object.freeze({ icon: "", name: "Melaka Straits Mosque 海峡清真寺", nameZh: "Melaka Straits Mosque 海峡清真寺" })
       ])
+    }),
+    Object.freeze({
+      id: "ipoh-cameron-highlands-one-day-trip",
+      name: "Ipoh ⇄ Cameron Highlands",
+      nameZh: "Ipoh ⇄ 金马仑高原",
+      duration: "One Day Trip",
+      durationZh: "一日游",
+      description: "Discover Cameron Highlands’ cool mountain air, scenic tea plantations and charming highland attractions on a flexible private day trip from Ipoh.",
+      descriptionZh: "从怡保出发，展开灵活的金马仑高原一日包车行程，感受清凉的高原气候、翠绿茶园与轻松舒适的山间风景。",
+      note: "Tour highlights are flexible and can be adjusted according to the customer’s preferred pace and interests. Actual stops may vary depending on weather, traffic, attraction operating hours and access conditions.",
+      noteZh: "行程可依顾客喜好与节奏灵活调整。实际景点、顺序及停留时间可能会因天气、交通、营业时间及景点开放情况而有所调整。",
+      whatsappMessage: "Hi URide Service, I would like to enquire about the Ipoh to Cameron Highlands One Day Trip.",
+      whatsappMessageZh: "你好 URide Service，我想询问 Ipoh ⇄ 金马仑高原一日游包车。",
+      image: "public/images/day-tour-cameron-highlands.webp",
+      highlights: Object.freeze([
+        Object.freeze({ icon: "", name: "BOH Tea Centre / Tea Plantation", nameZh: "BOH 茶园" }),
+        Object.freeze({ icon: "", name: "Mossy Forest", nameZh: "Mossy Forest 苔藓森林" }),
+        Object.freeze({ icon: "", name: "Strawberry Farm", nameZh: "草莓园" }),
+        Object.freeze({ icon: "", name: "Kea Farm / Local Market", nameZh: "Kea Farm / 当地市场" }),
+        Object.freeze({ icon: "", name: "Scenic Mountain Viewpoints", nameZh: "高原观景点" })
+      ])
     })
   ]),
   addOns: Object.freeze([
