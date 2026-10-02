@@ -5,7 +5,7 @@
     catch { return 'en'; }
   };
   const zh = {
-    'Skip to content':'跳至主要内容','Services':'服务','Fleet':'车队','Why URide':'选择 URide 的理由','Fares':'价格','FAQ':'常见问题','WhatsApp us':'WhatsApp 咨询','Explore':'浏览','Back to top ↑':'返回顶部 ↑','Airport':'机场接送','Interstate':'跨州接送','Charter':'私人包车','CUSTOMER EXPERIENCES':'客户体验','Real journeys. Real feedback.':'真实旅程，真实评价。','on Google':'Google 评价','25 Reviews':'25 条评价','Google Review':'Google 评价','View all Google Reviews →':'查看所有 Google 评价 →',
+    'Skip to content':'跳至主要内容','Services':'服务','Fleet':'车队','Why URide':'选择 URide 的理由','Fares':'价格','FAQ':'常见问题','WhatsApp us':'WhatsApp 咨询','Explore':'浏览','Back to top ↑':'返回顶部 ↑','Airport':'机场接送','Interstate':'跨州接送','Charter':'私人包车','CUSTOMER EXPERIENCES':'客户体验','Real journeys. Real feedback.':'真实旅程，真实评价。','on Google':'Google 评价','25 Reviews':'25 条评价','Google Review':'Google 评价','View all Google Reviews →':'查看所有 Google 评价 →','Recent Transfers':'近期真实接送记录','Real journeys. Real vehicles. Real URide Service transfers.':'真实行程 · 真实车辆 · URide Service 实际接送记录','Photos shown are from actual URide Service transfer trips.':'以上照片均来自 URide Service 实际接送行程。',
     "Ipoh's private transfer specialist":'怡保私人接送服务专家','From your door to':'从家门出发，安心抵达','departure.':'机场。','Premium private rides between Ipoh and KLIA, plus charter journeys across Malaysia—planned around your time, comfort and peace of mind.':'提供怡保往返 KLIA 的尊贵私人接送，以及全马包车服务。行程配合您的时间，以舒适、安心为先。','Get a trip quote':'索取行程报价','Explore our fleet':'查看车队','Private, door-to-door':'私人点对点接送','Professional local drivers':'专业本地司机','YOUR MOST-BOOKED ROUTE':'热门路线','Available':'可预约','Doorstep pickup':'上门接送','Terminal drop-off':'机场航站楼下车','Private':'私人','ride':'行程','Direct':'直达','journey':'接送','booking':'预约','Door-to-door':'点对点接送','Travel made simple':'让旅程更轻松','Planned pickups':'预约接送','Comfortable fleet':'舒适车队','Interstate coverage':'跨州服务','Direct support':'直接沟通',
     'What we do':'我们的服务','A ride for every journey.':'每一段旅程，都有合适安排。','From airport departures to private days out, every trip is arranged with the same care and attention.':'从机场接送到私人一日游，每趟行程都用心安排。','KLIA / KLIA2 transfers':'KLIA / KLIA2 机场接送','Airport Transfer':'机场接送','Private airport transfer with doorstep pickup and direct terminal drop-off.':'私人机场接送，上门接载并直达航站楼。','View Airport Fares':'查看机场接送价格','Private Charter':'私人包车','A dedicated vehicle and driver for business, family, or special occasions.':'为商务、家庭或特别场合安排专属车辆与司机。','Explore Charter':'了解包车服务','Interstate Transfer':'跨州接送','Comfortable point-to-point private transfers from Ipoh across Malaysia.':'从怡保出发，舒适直达全马各地。','View Destinations':'查看路线','Day Tours':'一日游包车','Flexible private outings shaped around the places you want to experience.':'按照您想探索的地点，灵活安排私人一日游。','Explore Tours':'查看一日游','Meet & Greet':'机场接机礼宾服务','A reassuring welcome and a smooth handover from arrival to vehicle.':'抵达后由专人接待，顺畅引导至车辆。','View Service':'查看服务',
     'Airport transfer, refined':'尊贵机场接送','Start calm. Arrive ready.':'从容出发，安心抵达。','Early flight, late arrival, or family holiday—we make the long airport journey feel straightforward.':'无论早班机、深夜抵达或家庭出游，我们都让机场长途接送更轻松。','Private service from Ipoh to KLIA':'怡保至 KLIA 私人接送','Pickup from your home, hotel, or office':'可从住家、酒店或办公室接载','Direct support before your journey':'行程前直接沟通','Comfortable vehicle choices':'多款舒适车辆选择','Request an airport quote':'索取机场接送报价','Our fleet':'我们的车队','Space that suits you.':'为您的旅程选择合适空间。','Choose a comfortable vehicle for solo travel, family trips, or larger groups with luggage.':'无论个人、家庭或多人携带行李出行，都可选择合适舒适的车辆。','Silver':'银色','White':'白色','Black':'黑色','Premium comfort':'尊贵舒适','Enquire on WhatsApp →':'WhatsApp 咨询 →','Luggage capacity may vary depending on passenger count, luggage size and arrangement. Please contact us if you are travelling with multiple large suitcases.':'行李容量会因乘客人数、行李尺寸及摆放方式而异。如携带多个大型行李箱，请先联系我们。',
@@ -20,6 +20,28 @@
   };
 
   Object.assign(zh, {
+    'Kuala Lumpur Transfers':'Kuala Lumpur 接送',
+    'Private Transfers':'私人接送',
+    'Private transfers between Kuala Lumpur, KLIA / KLIA2 and Genting Highlands.':'提供 Kuala Lumpur、KLIA / KLIA2 与 Genting Highlands 之间的私人接送。',
+    'View KL Transfers':'查看 KL 接送',
+    'Kuala Lumpur Private Transfers':'Kuala Lumpur 私人接送',
+    'Private door-to-door transportation for airport trips, families, business travellers and private groups. Arrange a Kuala Lumpur airport transfer, KL to KLIA transfer, KLIA to Kuala Lumpur transfer, or Kuala Lumpur to Genting transfer with a professional private vehicle.':'为机场行程、家庭、商务旅客及私人团体提供点对点私人接送。可安排 Kuala Lumpur 机场接送、KL 往返 KLIA，以及 Kuala Lumpur 前往 Genting Highlands 的专业私人车辆服务。',
+    'View transfer fares':'查看接送价格',
+    'Private airport and highland routes':'机场与高原私人接送',
+    'Two direct routes, clearly arranged.':'两条直达路线，清楚安排。',
+    'Choose a comfortable Toyota Alphard or Hyundai Staria for private transfer travel from Kuala Lumpur.':'从 Kuala Lumpur 出发，可选择舒适的 Toyota Alphard 或 Hyundai Staria 私人接送。',
+    'KLIA airport transfer':'KLIA 机场接送',
+    'Door-to-door private airport transfer between Kuala Lumpur city and Kuala Lumpur International Airport.':'Kuala Lumpur 市区与 Kuala Lumpur International Airport 之间的点对点私人机场接送。',
+    'Private highland transfer':'高原私人接送',
+    'Comfortable private transfer between Kuala Lumpur and Genting Highlands without changing buses or arranging multiple rides.':'Kuala Lumpur 与 Genting Highlands 之间的舒适私人接送，无需转乘巴士或安排多趟车辆。',
+    'one way':'单程',
+    '/ one way':'/ 单程',
+    'One-way fares. Other pickup/drop-off locations within Kuala Lumpur and Klang Valley are available upon request.':'以上为单程价格。Kuala Lumpur 与 Klang Valley 其他上车或下车地点可按需求安排。',
+    'Kuala Lumpur private transport':'Kuala Lumpur 私人交通服务',
+    'Need a different pickup location?':'需要其他上车地点？',
+    'Contact URide Service for private transfer arrangements across Kuala Lumpur and Klang Valley.':'请联系 URide Service 安排 Kuala Lumpur 与 Klang Valley 各区的私人接送。',
+    'Kuala Lumpur transfer':'Kuala Lumpur 接送',
+    'WhatsApp Us →':'WhatsApp 咨询 →',
     'Most Popular Airport Route':'热门机场接送路线',
     'Most Popular Route':'热门路线',
     'Ipoh ⇄ KLIA Airport Transfer':'Ipoh ⇄ KLIA 机场接送',
@@ -35,7 +57,7 @@
     'Premium private rides between Ipoh and KLIA, plus charter journeys across Malaysia—planned around your time, comfort and peace of mind.':'提供 Ipoh 往返 KLIA 的尊贵私人接送，以及全马包车服务。行程配合您的时间，以舒适、安心为先。',
     'Comfortable point-to-point private transfers from Ipoh across Malaysia.':'从 Ipoh 出发，舒适直达全马各地。',
     'Private service from Ipoh to KLIA':'Ipoh 至 KLIA 私人接送',
-    'Professional private transportation from Ipoh, Malaysia.':'马来西亚 Ipoh 专业私人接送服务。',
+    'Professional private transportation from Ipoh, Malaysia.':'马来西亚 Ipoh 专业私人接送服务。','Registration No.':'注册编号',
     'Premium private transfers between KLIA / KLIA2 and Ipoh, Perak destinations, Cameron Highlands, and Penang.':'提供 KLIA / KLIA2 往返 Ipoh、Perak 各地、Cameron Highlands 及 Penang 的尊贵私人接送。',
     'From Ipoh,':'从 Ipoh 出发，',
     'From Ipoh':'从 Ipoh 出发',
@@ -110,6 +132,7 @@
     'Private Charter | URide Service':'私人包车｜URide Service',
     'Day Tours | URide Service':'一日游包车｜URide Service',
     'Meet & Greet | URide Service':'机场接机礼宾服务｜URide Service'
+    ,'Kuala Lumpur KLIA & Genting Private Transfer | URide Service':'Kuala Lumpur KLIA 与 Genting 私人接送｜URide Service'
   };
 
   const originalTexts = new WeakMap();
@@ -134,6 +157,8 @@
   function chineseWhatsAppMessage(message) {
     if (/^你好\s+URide Service/.test(message)) return message;
     if (/KLIA/.test(message) && /Ipoh/.test(message)) return '你好 URide Service，我想查询 Ipoh ⇄ KLIA / KLIA2 接送的档期。';
+    if (/KLIA/.test(message) && /Kuala Lumpur/.test(message)) return '你好 URide Service，我想查询 Kuala Lumpur ⇄ KLIA / KLIA2 私人接送的档期。';
+    if (/Genting/.test(message) && /Kuala Lumpur/.test(message)) return '你好 URide Service，我想查询 Kuala Lumpur ⇄ Genting Highlands 私人接送的档期。';
     if (/Penang|槟城/.test(message) && /Ipoh|怡保/.test(message)) return '你好 URide Service，我想询问怡保到槟城的接送服务。';
     if (/airport/i.test(message)) return '你好 URide Service，我想询问机场接送服务的报价与档期。';
     if (/interstate/i.test(message)) return '你好 URide Service，我想询问跨州接送服务的报价与档期。';
@@ -165,6 +190,15 @@
     poster.alt = language === 'zh' ? (zh[alt] || alt) : alt;
   }
 
+  function setRecentTransfersImage(language) {
+    const image = document.querySelector('[data-recent-transfer-language]');
+    if (!image) return;
+    image.src = language === 'zh' ? image.dataset.srcZh : image.dataset.srcEn;
+    image.alt = language === 'zh'
+      ? 'URide Service 8月真实接送记录'
+      : 'URide Service August transfer records';
+  }
+
   function addLanguageSwitch(language) {
     if (document.querySelector('[data-language-switch]')) return;
     const button = document.createElement('button');
@@ -187,6 +221,7 @@
   document.addEventListener('DOMContentLoaded', () => {
     if (language === 'zh' && titleZh[document.title]) document.title = titleZh[document.title];
     setFeaturedServicesPoster(language);
+    setRecentTransfersImage(language);
     translateTextNodes(language);
     translateWhatsAppLinks(language);
     addLanguageSwitch(language);
