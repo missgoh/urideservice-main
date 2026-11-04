@@ -167,3 +167,12 @@ body{background:var(--surface)}.site-header{background:rgba(247,245,240,.94)}.si
   #services .services-grid-photographic>.service-card-photo{flex:0 0 86%;width:86%;min-width:0;scroll-snap-align:start;scroll-snap-stop:always}
   .services-section .service-swipe-hint{display:block;margin:-10px 0 10px;text-align:right;color:#76664f;font-size:12px;line-height:1.4;letter-spacing:.02em}
 }
+
+/* Mobile-only swipe carousel for the existing Fleet cards. */
+.fleet-section .fleet-swipe-hint{display:none}
+@media(max-width:767px){
+  .fleet-section .fleet-grid{display:flex;grid-template-columns:none;align-items:stretch;gap:16px;overflow-x:auto;overflow-y:hidden;overscroll-behavior-x:contain;scroll-snap-type:x mandatory;scroll-padding-inline:2px;padding:2px 2px 12px;margin-inline:-2px;-webkit-overflow-scrolling:touch;scrollbar-width:none}
+  .fleet-section .fleet-grid::-webkit-scrollbar{display:none}
+  .fleet-section .fleet-grid>.vehicle-card{flex:0 0 86%;width:86%;min-width:0;scroll-snap-align:start;scroll-snap-stop:always}
+  .fleet-section .fleet-swipe-hint{display:block;margin:-10px 0 10px;text-align:right;color:#76664f;font-size:12px;line-height:1.4;letter-spacing:.02em}
+}

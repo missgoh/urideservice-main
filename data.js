@@ -156,6 +156,21 @@ window.URIDE_DATA = Object.freeze({
   ]),
   recentTransfers: Object.freeze([
     Object.freeze({
+      monthKey: "2026-10",
+      titleEn: "October 2026 Transfer Records",
+      titleZh: "2026年10月接送记录",
+      published: true,
+      photos: Object.freeze([
+        Object.freeze({ id: "october-07", sharedImage: "public/images/recent-transfers/recent-transfer-october-2026-07.png", date: null, route: null, vehicle: null, displayOrder: 0, published: true }),
+        Object.freeze({ id: "october-01", sharedImage: "public/images/recent-transfers/recent-transfer-october-2026-01.png", date: null, route: null, vehicle: null, displayOrder: 1, published: true }),
+        Object.freeze({ id: "october-02", sharedImage: "public/images/recent-transfers/recent-transfer-october-2026-02.png", date: null, route: null, vehicle: null, displayOrder: 2, published: true }),
+        Object.freeze({ id: "october-03", sharedImage: "public/images/recent-transfers/recent-transfer-october-2026-03.png", date: null, route: null, vehicle: null, displayOrder: 3, published: true }),
+        Object.freeze({ id: "october-04", sharedImage: "public/images/recent-transfers/recent-transfer-october-2026-04.png", date: null, route: null, vehicle: null, displayOrder: 4, published: true }),
+        Object.freeze({ id: "october-05", sharedImage: "public/images/recent-transfers/recent-transfer-october-2026-05.png", date: null, route: null, vehicle: null, displayOrder: 5, published: true }),
+        Object.freeze({ id: "october-06", sharedImage: "public/images/recent-transfers/recent-transfer-october-2026-06.png", date: null, route: null, vehicle: null, displayOrder: 6, published: true })
+      ])
+    }),
+    Object.freeze({
       monthKey: "2026-09",
       titleEn: "September 2026 Transfer Records",
       titleZh: "2026年9月接送记录",
