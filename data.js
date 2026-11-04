@@ -154,5 +154,30 @@ window.URIDE_DATA = Object.freeze({
       whatsappMessageZh: "你好 URide Service，我想在接送订单中加订儿童安全座椅。"
     })
   ]),
+  recentTransfers: Object.freeze([
+    Object.freeze({
+      monthKey: "2026-09",
+      titleEn: "September 2026 Transfer Records",
+      titleZh: "2026年9月接送记录",
+      published: true,
+      photos: Object.freeze([
+        Object.freeze({ id: "september-05", sharedImage: "public/images/recent-transfers/recent-transfer-september-2026-05.png", date: null, route: null, vehicle: null, displayOrder: 0, published: true }),
+        Object.freeze({ id: "september-01", sharedImage: "public/images/recent-transfers/recent-transfer-september-2026-01.png", date: null, route: null, vehicle: null, displayOrder: 1, published: true }),
+        Object.freeze({ id: "september-02", sharedImage: "public/images/recent-transfers/recent-transfer-september-2026-02.png", date: null, route: null, vehicle: null, displayOrder: 2, published: true }),
+        Object.freeze({ id: "september-03", sharedImage: "public/images/recent-transfers/recent-transfer-september-2026-03.png", date: null, route: null, vehicle: null, displayOrder: 3, published: true }),
+        Object.freeze({ id: "september-04", sharedImage: "public/images/recent-transfers/recent-transfer-september-2026-04.png", date: null, route: null, vehicle: null, displayOrder: 4, published: true })
+      ])
+    }),
+    Object.freeze({
+      monthKey: "2026-08",
+      titleEn: "August 2026 Transfer Records",
+      titleZh: "2026年8月接送记录",
+      published: true,
+      photos: Object.freeze([
+        Object.freeze({ id: "august-01", imageEn: "public/images/recent-transfers/recent-transfer-august-en.jpg", imageZh: "public/images/recent-transfers/recent-transfer-august-zh.jpg", date: null, route: null, vehicle: null, displayOrder: 0, published: true }),
+        Object.freeze({ id: "august-02", sharedImage: "public/images/recent-transfers/recent-transfer-august-02.jpg", date: null, route: null, vehicle: null, displayOrder: 1, published: true })
+      ])
+    })
+  ]),
   meetAndGreet: Object.freeze({ price: 50, unit: "per service" })
 });

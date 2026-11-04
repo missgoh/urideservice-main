@@ -9,10 +9,11 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@600;700;800&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="styles.css?v=20261002-services-media">
-  <script defer src="data.js?v=20261002-cameron"></script>
-  <script defer src="i18n.js?v=20261003-reviews40"></script>
+  <link rel="stylesheet" href="styles.css?v=20261104-recent-months">
+  <script defer src="data.js?v=20261104-recent-months"></script>
+  <script defer src="i18n.js?v=20261104-recent-months"></script>
   <script defer src="script.js?v=20261002-cameron"></script>
+  <script defer src="recent-transfers.js?v=20261104-recent-months"></script>
 </head>
 <body>
   <a class="skip-link" href="#main">Skip to content</a>
@@ -186,29 +187,7 @@
           <h2 id="recent-transfers-title">Recent Transfers</h2>
           <p>Real journeys. Real vehicles. Real URide Service transfers.</p>
         </div>
-        <div class="recent-transfers-grid">
-          <figure class="recent-transfer-media">
-            <img
-              data-recent-transfer-language
-              data-src-en="public/images/recent-transfers/recent-transfer-august-en.jpg"
-              data-src-zh="public/images/recent-transfers/recent-transfer-august-zh.jpg"
-              src="public/images/recent-transfers/recent-transfer-august-en.jpg"
-              alt="URide Service August transfer records"
-              width="900"
-              height="1200"
-              loading="lazy"
-              decoding="async">
-          </figure>
-          <figure class="recent-transfer-media">
-            <img
-              src="public/images/recent-transfers/recent-transfer-august-02.jpg"
-              alt="Actual URide Service transfer journeys at KLIA and Ipoh"
-              width="900"
-              height="1200"
-              loading="lazy"
-              decoding="async">
-          </figure>
-        </div>
+        <div class="recent-transfers-months" data-recent-transfers-gallery aria-label="Monthly transfer photo records"></div>
         <p class="recent-transfers-trust">Photos shown are from actual URide Service transfer trips.</p>
       </div>
     </section>
