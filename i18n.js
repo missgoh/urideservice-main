@@ -20,6 +20,10 @@
   };
 
   Object.assign(zh, {
+    'OUR SERVICES':'我们的服务',
+    'What We Offer':'我们提供的服务',
+    'Private transport solutions for airport transfers, interstate journeys, day tours and more.':'提供机场接送、跨州接送、私人包车、一日游及更多私人出行服务。',
+    'Swipe to explore →':'向左滑查看更多 →',
     'Kuala Lumpur Transfers':'Kuala Lumpur 接送',
     'Private Transfers':'私人接送',
     'Private transfers between Kuala Lumpur, KLIA / KLIA2 and Genting Highlands.':'提供 Kuala Lumpur、KLIA / KLIA2 与 Genting Highlands 之间的私人接送。',
