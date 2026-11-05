@@ -1,0 +1,45 @@
+name: Update Google Reviews
+
+on:
+  schedule:
+    - cron: '17 2 * * *'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: update-google-reviews
+  cancel-in-progress: false
+
+jobs:
+  update-reviews:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out main
+        uses: actions/checkout@v4
+        with:
+          ref: main
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: Fetch and validate Google review summary
+        env:
+          GOOGLE_PLACES_API_KEY: ${{ secrets.GOOGLE_PLACES_API_KEY }}
+          GOOGLE_PLACE_ID: ${{ vars.GOOGLE_PLACE_ID }}
+        run: node .github/scripts/update-google-reviews.mjs
+
+      - name: Commit and push only if the summary changed
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add public/data/google-reviews.json
+          if git diff --cached --quiet; then
+            echo "Google review rating and count are unchanged."
+          else
+            git commit -m "Update Google review summary"
+            git push origin HEAD:main
+          fi

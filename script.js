@@ -21,6 +21,37 @@ window.addEventListener('resize', () => { if (window.innerWidth >= 980) closeMen
 window.addEventListener('scroll', () => header?.classList.toggle('scrolled', window.scrollY > 10), { passive: true });
 document.querySelectorAll('[data-year]').forEach((node) => { node.textContent = new Date().getFullYear(); });
 
+async function updateGoogleReviewsSummary() {
+  const summary = document.querySelector('[data-google-reviews]');
+  const countNode = summary?.querySelector('[data-google-review-count]');
+  if (!summary || !countNode) return;
+
+  try {
+    const response = await fetch('/public/data/google-reviews.json', { cache: 'no-store' });
+    if (!response.ok) return;
+    const reviews = await response.json();
+    const rating = reviews?.rating;
+    const count = reviews?.userRatingCount;
+    if (typeof rating !== 'number' || !Number.isFinite(rating) || rating < 1 || rating > 5) return;
+    if (!Number.isSafeInteger(count) || count < 0) return;
+
+    const countText = window.URIDE_I18N?.formatReviewCount?.(count);
+    if (typeof countText !== 'string' || !countText) return;
+
+    countNode.textContent = countText;
+    const summaryLabel = window.URIDE_I18N?.formatReviewSummaryLabel?.(count);
+    if (typeof summaryLabel === 'string' && summaryLabel) summary.setAttribute('aria-label', summaryLabel);
+  } catch {
+    // Keep the embedded rating and count visible when the JSON cannot be fetched.
+  }
+}
+
+if (document.readyState === 'loading') {
+  document.addEventListener('DOMContentLoaded', updateGoogleReviewsSummary, { once: true });
+} else {
+  updateGoogleReviewsSummary();
+}
+
 const siteData = window.URIDE_DATA;
 const language = window.URIDE_I18N?.language || 'en';
 const translate = window.URIDE_I18N?.t || ((text) => text);
