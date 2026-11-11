@@ -10,7 +10,7 @@ window.URIDE_DATA = Object.freeze({
     Object.freeze({ name: "Hyundai Staria", model: "Hyundai Staria", colour: "Black", colourZh: "黑色", maxPassengers: 8, maxLuggage: 6, lateNightSurcharge: 50, surcharge: 50, image: "public/images/hyundai-staria-black-2025.webp" })
   ]),
   airportTransfer: Object.freeze([
-    Object.freeze({ destination: "Ipoh", destinationZh: "Ipoh", route: "KLIA / KLIA2 ⇄ Ipoh", routeZh: "KLIA / KLIA2 ⇄ Ipoh", prices: [400, 650, 750] }),
+    Object.freeze({ destination: "Ipoh", destinationZh: "Ipoh", route: "KLIA / KLIA2 ⇄ Ipoh", routeZh: "KLIA / KLIA2 ⇄ Ipoh", prices: [420, 680, 750] }),
     Object.freeze({ destination: "Chemor / Sg. Siput", destinationZh: "Chemor / Sg. Siput", route: "KLIA / KLIA2 ⇄ Chemor / Sg. Siput", routeZh: "KLIA / KLIA2 ⇄ Chemor / Sg. Siput", prices: [450, 680, 780] }),
     Object.freeze({ destination: "Tg Tualang / Batu Gajah", destinationZh: "Tg Tualang / Batu Gajah", route: "KLIA / KLIA2 ⇄ Tg Tualang / Batu Gajah", routeZh: "KLIA / KLIA2 ⇄ Tg Tualang / Batu Gajah", prices: [450, 700, 780] }),
     Object.freeze({ destination: "Kuala Kangsar / Taiping", destinationZh: "Kuala Kangsar / Taiping", route: "KLIA / KLIA2 ⇄ Kuala Kangsar / Taiping", routeZh: "KLIA / KLIA2 ⇄ Kuala Kangsar / Taiping", prices: [550, "750 – 800", "800 – 850"], locationVariable: true }),
