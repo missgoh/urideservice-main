@@ -12,7 +12,7 @@ window.URIDE_DATA = Object.freeze({
   airportTransfer: Object.freeze([
     Object.freeze({ destination: "Ipoh", destinationZh: "Ipoh", route: "KLIA / KLIA2 ⇄ Ipoh", routeZh: "KLIA / KLIA2 ⇄ Ipoh", prices: [420, 680, 750] }),
     Object.freeze({ destination: "Chemor / Sg. Siput", destinationZh: "Chemor / Sg. Siput", route: "KLIA / KLIA2 ⇄ Chemor / Sg. Siput", routeZh: "KLIA / KLIA2 ⇄ Chemor / Sg. Siput", prices: [450, 680, 780] }),
-    Object.freeze({ destination: "Tg Tualang / Batu Gajah", destinationZh: "Tg Tualang / Batu Gajah", route: "KLIA / KLIA2 ⇄ Tg Tualang / Batu Gajah", routeZh: "KLIA / KLIA2 ⇄ Tg Tualang / Batu Gajah", prices: [450, 700, 780] }),
+    Object.freeze({ destination: "Tg Tualang / Batu Gajah", destinationZh: "Tg Tualang / Batu Gajah", route: "KLIA / KLIA2 ⇄ Tg Tualang / Batu Gajah", routeZh: "KLIA / KLIA2 ⇄ Tg Tualang / Batu Gajah", prices: [500, 700, 780] }),
     Object.freeze({ destination: "Kuala Kangsar / Taiping", destinationZh: "Kuala Kangsar / Taiping", route: "KLIA / KLIA2 ⇄ Kuala Kangsar / Taiping", routeZh: "KLIA / KLIA2 ⇄ Kuala Kangsar / Taiping", prices: [550, "750 – 800", "800 – 850"], locationVariable: true }),
     Object.freeze({ destination: "Cameron Highlands", destinationZh: "Cameron Highlands", route: "KLIA / KLIA2 ⇄ Cameron Highlands", routeZh: "KLIA / KLIA2 ⇄ Cameron Highlands", prices: [550, 750, 850] }),
     Object.freeze({ destination: "Teluk Intan", destinationZh: "Teluk Intan", route: "KLIA / KLIA2 ⇄ Teluk Intan", routeZh: "KLIA / KLIA2 ⇄ Teluk Intan", prices: [550, 800, 900] }),
